@@ -13,7 +13,13 @@ const empRouter = require("./Routers/empRouter");
 require("dotenv").config();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors(
+  {
+    origin: ['https://deals-dray-frontend-xi.vercel.app'],
+    methods:["POST","GET","PUT","DELETE"],
+    credentials:true
+  }
+));
 
 const port = process.env.port || 3000;
 
