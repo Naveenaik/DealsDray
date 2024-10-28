@@ -4,7 +4,7 @@ import Cookie from 'js-cookie';
 
 
 // const baseUrl = "http://localhost:5000";
-const baseUrl = "https://deals-draybackend.vercel.app";
+const baseUrl = "https://deals-dray-nu.vercel.app";
 
 
 
